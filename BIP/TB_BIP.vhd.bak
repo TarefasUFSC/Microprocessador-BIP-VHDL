@@ -1,0 +1,57 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity TB_BIP is
+	Generic(
+		p_data_width			: integer := 16;
+		p_add_width 			: integer := 12
+	);
+end TB_BIP;
+
+architecture behavioral of TB_BIP is
+
+	component BIP is
+		
+		port(
+			i_clk 					: in std_logic; -- remover depois que criar o pll
+			i_rst 					: in std_logic; -- remover depois que criar o pll
+		);
+	end component;
+	
+	-- cria um signal w_x pra cada port
+	SIGNAL w_clk 					: std_logic; -- remover depois que criar o pll
+	SIGNAL w_rst 					: std_logic; -- remover depois que criar o pll
+begin
+
+	UUT: BIP
+	port map(
+		-- Só lembra que aqui a seta é: pino_do_componente => w_x equivalente
+		i_clk 						=> w_clk,
+		i_rst 						=> w_rst
+	);
+	
+
+-- Sinais
+	-- clock
+	process
+	begin
+		w_clk <= '0';
+		wait for 10 NS;
+		w_clk <= '1';
+		wait for 10 NS;
+	end process;
+
+	-- reset
+	process
+	begin
+		w_rst <= '1';
+		wait for 10 NS;
+		w_rst <= '0';
+		wait;
+	end process;
+	
+
+
+end behavioral;

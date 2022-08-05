@@ -1,0 +1,157 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity TB_CAMINHO_DADOS is
+	generic(
+		p_data_width	: integer := 16;
+		p_address_width : integer := 12
+	);
+end TB_CAMINHO_DADOS;
+
+architecture behavioral of TB_CAMINHO_DADOS is
+
+	component CAMINHO_DADOS is
+		
+	port(
+		i_switches		: in std_logic_vector((p_address_width-1) downto 0);
+		i_wr_acc			: in std_logic ;
+		i_sel_op1		: in std_logic_vector(1 downto 0) ;
+		i_sel_op2		: in std_logic ;
+		i_sel_ula		: in std_logic ;
+		i_dout_rom		: in std_logic_vector((p_data_width-1)downto 0) ;
+		i_dout_ram		: in std_logic_vector((p_data_width-1)downto 0) ;
+		i_clk				: in std_logic ;
+		i_rst				: in std_logic ;
+		o_opcode			: out std_logic_vector(3 downto 0);
+		o_address_ram	: out std_logic_vector((p_address_width-1) downto 0);
+		o_din_ram		: out std_logic_vector((p_data_width-1) downto 0);
+		o_out_acc		:out std_logic_vector((p_data_width-1) downto 0)
+
+	);
+	end component;
+	
+	-- cria um signal w_x pra cada port
+	SIGNAL w_switches		: std_logic_vector((p_address_width-1) downto 0);
+	SIGNAL w_wr_acc		: std_logic ;
+	SIGNAL w_sel_op1		: std_logic_vector(1 downto 0) ;
+	SIGNAL w_sel_op2		: std_logic ;
+	SIGNAL w_sel_ula		: std_logic ;
+	SIGNAL w_dout_rom		: std_logic_vector((p_data_width-1)downto 0) ;
+	SIGNAL w_dout_ram		: std_logic_vector((p_data_width-1)downto 0) ;
+	SIGNAL w_clk			: std_logic ;
+	SIGNAL w_rst			: std_logic ;
+	SIGNAL w_opcode		: std_logic_vector(3 downto 0);
+	SIGNAL w_address_ram	: std_logic_vector((p_address_width-1) downto 0);
+	SIGNAL w_din_ram		: std_logic_vector((p_data_width-1) downto 0);
+	SIGNAL w_out_acc		: std_logic_vector((p_data_width-1) downto 0);
+	
+begin
+
+	UUT: CAMINHO_DADOS
+	port map(
+		-- Só lembra que aqui a seta é: pino_do_componente => w_x equivalente
+		i_switches =>w_switches,
+		i_wr_acc =>w_wr_acc,
+		i_sel_op1 =>w_sel_op1,
+		i_sel_op2 =>w_sel_op2,
+		i_sel_ula =>w_sel_ula,
+		i_dout_rom =>w_dout_rom,
+		i_dout_ram =>w_dout_ram,
+		i_clk =>w_clk,
+		i_rst =>w_rst,
+		o_opcode =>w_opcode,
+		o_address_ram =>w_address_ram,
+		o_din_ram =>w_din_ram,
+		o_out_acc =>w_out_acc
+	);
+	
+
+-- Sinais
+	-- clock
+	process
+	begin
+		w_clk <= '0';
+		wait for 5 NS;
+		w_clk <= '1';
+		wait for 5 NS;
+	end process;
+
+	-- reset
+	process
+	begin
+		w_rst <= '1';
+		wait for 10 NS;
+		w_rst <= '0';
+		wait;
+	end process;
+	
+
+-- teste CAMINHO_DADOS
+	process
+	begin
+		
+		wait for 15 NS;
+		-- colocar os sinais aqui
+		w_dout_rom	<= "0010000000001111";
+		w_dout_ram	<= "0000000000000001";
+		w_switches	<= "010101010101" ;
+		-- w_wr_ram <= '0';
+		-- w_en_ram <= '1';
+		-- w_en_pc <= '1';
+		-- w_en_rom <= '1';
+		w_wr_acc	<= '1';
+		w_sel_op1(1)	<= '0';
+		w_sel_op1(0)	<= '0';
+		w_sel_op2	<= '0';
+		w_sel_ula	<= '0';
+		wait for 10 NS;
+
+		w_dout_rom	<= "0011000000001111";
+		w_dout_ram	<= "0000000000000001";
+		w_switches	<= "010101010101" ;
+		-- w_wr_ram <= '0';
+		-- w_en_ram <= '0';
+		-- w_en_pc <= '1';
+		-- w_en_rom <= '1';
+		w_wr_acc	<= '1';
+		w_sel_op1(1)	<= '0';
+		w_sel_op1(0)	<= '1';
+		w_sel_op2	<= '1';
+		w_sel_ula	<= '0';
+		wait for 10 NS;
+
+		w_dout_rom	<= "0100000000001111";
+		w_dout_ram	<= "0000000000000001";
+		w_switches	<= "010101010101" ;
+		-- w_wr_ram <= '0';
+		-- w_en_ram <= '1';
+		-- w_en_pc <= '1';
+		-- w_en_rom <= '1';
+		w_wr_acc	<= '1';
+		w_sel_op1(1)	<= '1';
+		w_sel_op1(0)	<= '0';
+		w_sel_op2	<= '0';
+		w_sel_ula	<= '0';
+		wait for 10 NS;
+		
+		w_dout_rom	<= "1000000000001111";
+		w_dout_ram	<= "0000000000000001";
+		w_switches	<= "010101010101" ;
+		-- w_wr_ram <= '0';
+		-- w_en_ram <= '0';
+		-- w_en_pc <= '1';
+		-- w_en_rom <= '1';
+		w_wr_acc	<= '1';
+		w_sel_op1(1)	<= '1';
+		w_sel_op1(0)	<= '1';
+		w_sel_op2	<= '0';
+		w_sel_ula	<= '0';
+
+		
+		wait for 10 NS;
+		wait;
+		
+	end process;
+end behavioral;

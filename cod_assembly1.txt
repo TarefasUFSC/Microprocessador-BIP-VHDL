@@ -1,0 +1,32 @@
+A = 19 = 0x013
+B = 10 = 0x00A
+
+// Carrega o A
+LDI  0x013 | 3013 
+STO  0x000 | 1000
+// Carrega o  B
+LDI  0x00A | 300A 
+STO  0x001 | 1001
+// Carrega os switches
+INP  0xXXX | 8XXX
+STO  0x002 | 1002
+
+// Soma com os imediatos A+B = 1D 
+LD   0x000 | 2000
+ADD  0x001 | 4001
+STO  0x003 | 1003
+
+// SUB nnn significa ACC = ACC - nnn
+// Subtração com os imediatos A-B = 9
+LD   0x000 | 2000
+SUB  0x001 | 6001
+STO  0x004 | 1004
+
+
+// Soma com o resultado da subtração anterior com os switches 9 - SWITCH 
+// vou testar o switch no tb com 7 -> 9 + 7 = 10
+LD   0x004 | 2004
+ADD  0x002 | 4002
+STO  0x005 | 1005
+
+

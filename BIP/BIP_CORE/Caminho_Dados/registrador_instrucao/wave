@@ -1,0 +1,5 @@
+p_add_width = 12
+p_data_width = 16
+w_address_ram = 000000010011
+w_opcode = 0011
+w_rom = 0011000000010011

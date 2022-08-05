@@ -1,0 +1,18 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity ALU is
+	Generic(
+		p_data_width		: integer := 16;
+		p_add_width 		: integer := 12
+	);
+	port(
+		
+	);
+end ALU;
+ARCHITECTURE behavior of ALU IS
+BEGIN
+	
+END behavior;

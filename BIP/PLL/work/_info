@@ -1,0 +1,118 @@
+m255
+K3
+13
+cModel Technology
+dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\BIP_CORE\Caminho_Dados\acumulador
+Epll
+Z0 w1659017588
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\PLL
+Z6 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/PLL.vhd
+Z7 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/PLL.vhd
+l0
+L6
+Vb>Yg5IU4J6@o7VVQmP;nC1
+!s100 jW6^kH76D6>c;iLOE_87R0
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1659018175.874000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/PLL.vhd|
+Z11 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/PLL.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Abehavior
+R1
+R2
+R3
+R4
+Z14 DEx4 work 3 pll 0 22 b>Yg5IU4J6@o7VVQmP;nC1
+l25
+L14
+Z15 VJ?ePQ2[RNc_mTjHi0_?000
+Z16 !s100 c5jEfUkI68j>Vb?b9NAkR0
+R8
+32
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Epll_intel
+Z17 w1659017315
+R3
+R4
+R5
+Z18 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/PLL_INTEL.vhd
+Z19 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/PLL_INTEL.vhd
+l0
+L43
+V;YcziiEbD:n_KIOMgkfo<0
+R8
+32
+Z20 !s108 1659018175.502000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/PLL_INTEL.vhd|
+Z22 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/PLL_INTEL.vhd|
+R12
+R13
+!s100 lOOPW^ZDUAfQ_7[EI6c:l1
+!i10b 1
+Asyn
+R3
+R4
+DEx4 work 9 pll_intel 0 22 ;YcziiEbD:n_KIOMgkfo<0
+l132
+L54
+V?<5@K<41WKfk42;_MY31@0
+!s100 K@^i1PhbgeN5?O`e1D^QE3
+R8
+32
+R20
+R21
+R22
+R12
+R13
+!i10b 1
+Etb_pll
+Z23 w1659017963
+R1
+R2
+R3
+R4
+R5
+Z24 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/TB_PLL.vhd
+Z25 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/TB_PLL.vhd
+l0
+L6
+Vm8jW?^c[X`=O9;:U_;c2O3
+R8
+32
+Z26 !s108 1659018175.208000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/TB_PLL.vhd|
+Z28 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/PLL/TB_PLL.vhd|
+R12
+R13
+!s100 kb_ahZTdH?@=SD;OQW7LY1
+!i10b 1
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 6 tb_pll 0 22 m8jW?^c[X`=O9;:U_;c2O3
+l27
+L10
+VWRnb<_HX54CYEJFSAAEC01
+R8
+32
+R26
+R27
+R28
+R12
+R13
+!s100 XgDP4_:SAAP3e:2VVJM;]3
+!i10b 1

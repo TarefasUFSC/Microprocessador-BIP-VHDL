@@ -1,0 +1,30 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity CAMINHO_DADOS is
+	generic(
+		p_data_width	: integer := 16;
+		p_address_width : integer := 12
+	);
+	port(
+		i_switches		: in std_logic_vector((p_address_width-1) downto 0);
+		i_wr_acc		: in std_logic ;
+		i_sel_op		: in std_logic(1 downto 0) ;
+		i_sel_ula		: in std_logic ;
+		i_en_in			: in std_logic ;
+		i_dout_rom		: in std_logic_vector((p_data_width-1)downto 0) ;
+		i_dout_ram		: in std_logic_vector((p_data_width-1)downto 0) ;
+		i_clk			: in std_logic ;
+		i_rst			: in std_logic ;
+		o_opcode		: out std_logic_vector(3 downto 0);
+		o_address_ram	: out std_logic_vector((p_address_width-1) downto 0);
+		o_din_ram		: out std_logic_vector((p_address_width-1) downto 0)
+
+	);
+end CAMINHO_DADOS;
+ARCHITECTURE behavior of CAMINHO_DADOS IS
+BEGIN
+	
+END behavior;

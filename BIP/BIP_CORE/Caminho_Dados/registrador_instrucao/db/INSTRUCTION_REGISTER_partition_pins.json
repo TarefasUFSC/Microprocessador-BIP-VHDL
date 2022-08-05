@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "o_opcode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_opcode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_opcode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_opcode[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[7]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[8]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[9]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[10]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[11]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[12]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[13]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[14]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[15]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[0]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[3]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[4]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[5]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[6]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[7]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[8]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[9]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[10]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rom[11]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\Caminho_Dados
+Eaddress_counter
+Z0 w1658800418
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\BIP_CORE\Caminho_Controle\Address_Counter
+Z6 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/ADDRESS_COUNTER.vhd
+Z7 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/ADDRESS_COUNTER.vhd
+l0
+L6
+V]nfkdP22gL2D0QZRi>ae]0
+!s100 0c<]mMNWS^<=57Q[YhCcl0
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1658800423.622000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/ADDRESS_COUNTER.vhd|
+Z11 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/ADDRESS_COUNTER.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Abehavior
+R1
+R2
+R3
+R4
+Z14 DEx4 work 15 address_counter 0 22 ]nfkdP22gL2D0QZRi>ae]0
+l21
+L19
+V7fddzURTLXQAl^JLcELO;1
+!s100 MhHEkGBI4On<Q4TV>I@SC2
+R8
+32
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Etb_address_counter
+Z15 w1658719764
+R1
+R2
+R3
+R4
+R5
+Z16 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/TB_ADDRESS_COUNTER.vhd
+Z17 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/TB_ADDRESS_COUNTER.vhd
+l0
+L6
+VJEE8LPOC]kG0ifn33Bn]h2
+R8
+32
+Z18 !s108 1658800423.417000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/TB_ADDRESS_COUNTER.vhd|
+Z20 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/TB_ADDRESS_COUNTER.vhd|
+R12
+R13
+!s100 FgP]7`P<XeV6kfAj2JBTV3
+!i10b 1
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 18 tb_address_counter 0 22 JEE8LPOC]kG0ifn33Bn]h2
+l31
+L13
+VO>NaO[TZ:M@h]Lf3D_HBk1
+!s100 iKI^fgRF]L7E8<aU4i^5^1
+R8
+32
+R18
+R19
+R20
+R12
+R13
+!i10b 1

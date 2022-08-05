@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\ROM
+Elogica_controle
+Z0 w1658941954
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\BIP_CORE\Caminho_Controle\Logica_Controle
+Z6 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/LOGICA_CONTROLE.vhd
+Z7 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/LOGICA_CONTROLE.vhd
+l0
+L6
+VMR^?h9[<4CnHJ]m^0HgXO2
+!s100 WZEJGR8M1S^XCgo7VbcF>2
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1658968954.995000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/LOGICA_CONTROLE.vhd|
+Z11 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/LOGICA_CONTROLE.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Abehavior
+R1
+R2
+R3
+R4
+Z14 DEx4 work 15 logica_controle 0 22 MR^?h9[<4CnHJ]m^0HgXO2
+l27
+L19
+Vg0hcM64gakmSX>lHngog?0
+!s100 i[[S:W9CZOnNn=6o9D0S=2
+R8
+32
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Etb_logica_controle
+Z15 w1658493892
+R1
+R2
+R3
+R4
+R5
+Z16 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/TB_LOGICA_CONTROLE.vhd
+Z17 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/TB_LOGICA_CONTROLE.vhd
+l0
+L6
+VI3zQFIcM>7ak]4U=F06K43
+R8
+32
+Z18 !s108 1658968954.833000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/TB_LOGICA_CONTROLE.vhd|
+Z20 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/TB_LOGICA_CONTROLE.vhd|
+R12
+R13
+!s100 d8NDiZQe:UihW742]o04Z0
+!i10b 1
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 18 tb_logica_controle 0 22 I3zQFIcM>7ak]4U=F06K43
+l37
+L10
+V8bDc5[XBeX:4kP79:ic:U1
+!s100 G9O_O^]=4e3<Bgk^9X_Dl2
+R8
+32
+R18
+R19
+R20
+R12
+R13
+!i10b 1

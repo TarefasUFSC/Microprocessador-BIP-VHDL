@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\Cronometro - Maquina de estado
+Ememoria_intel
+Z0 w1656677230
+Z1 DPx9 altera_mf 20 altera_mf_components 0 22 zh;bE09gCIPDVLK?MN49L3
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\RAM
+Z5 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/MEMORIA_INTEL.vhd
+Z6 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/MEMORIA_INTEL.vhd
+l0
+L43
+V7Z]:jamZPZ]JG_kJ6V6T`0
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1658945645.351000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/MEMORIA_INTEL.vhd|
+Z10 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/MEMORIA_INTEL.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 8Ymjh:@ciO3?mC:OT]`1U0
+!i10b 1
+Asyn
+R1
+R2
+R3
+DEx4 work 13 memoria_intel 0 22 7Z]:jamZPZ]JG_kJ6V6T`0
+l61
+L57
+V?zzZ<^nCT3dXOVS7WQXl`2
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 ?2aWMG2OVM>EL:akN_ShJ1
+!i10b 1
+Eram
+Z13 w1659029340
+Z14 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+Z15 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R2
+R3
+R4
+Z16 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/RAM.vhd
+Z17 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/RAM.vhd
+l0
+L6
+VLkL3EXoIb;PXZkNXL2P4T1
+R7
+32
+Z18 !s108 1659029349.123000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/RAM.vhd|
+Z20 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/RAM.vhd|
+R11
+R12
+!s100 PKeCG`5eMLS]Af@T6@Fkm1
+!i10b 1
+Abehavioral
+R14
+R15
+R2
+R3
+DEx4 work 3 ram 0 22 LkL3EXoIb;PXZkNXL2P4T1
+l76
+L39
+Vh_R4I4bJO=8:j]L=7mcLU0
+R7
+32
+R18
+R19
+R20
+R11
+R12
+!s100 D4:oLBc1ea0f36JCd4:XU3
+!i10b 1
+Eram_sreg
+Z21 w1658952370
+R1
+R2
+R3
+R4
+Z22 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/RAM_SREG.vhd
+Z23 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/RAM_SREG.vhd
+l0
+L43
+V@XAcIHN[J7C>`aNRD8h7B0
+!s100 a[YZfAOb9z@aJKE<GYDM81
+R7
+32
+!i10b 1
+Z24 !s108 1659029349.267000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/RAM_SREG.vhd|
+Z26 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/RAM_SREG.vhd|
+R11
+R12
+Asyn
+R1
+R2
+R3
+Z27 DEx4 work 8 ram_sreg 0 22 @XAcIHN[J7C>`aNRD8h7B0
+l61
+L57
+Z28 V<0m_L@55T8E2M62;HncL:1
+Z29 !s100 POl3cID<CXVeIdA^6>GCU0
+R7
+32
+!i10b 1
+R24
+R25
+R26
+R11
+R12
+Etb_ram
+Z30 w1658968522
+Z31 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R15
+R2
+R3
+R4
+Z32 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/TB_RAM.vhd
+Z33 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/TB_RAM.vhd
+l0
+L6
+Vl7z_RJiX1TjmggZFQ6iZ63
+R7
+32
+Z34 !s108 1659029348.984000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/TB_RAM.vhd|
+Z36 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/RAM/TB_RAM.vhd|
+R11
+R12
+!s100 [HMdCJLF<R`QBESMM[g331
+!i10b 1
+Abehavioral
+R31
+R15
+R2
+R3
+DEx4 work 6 tb_ram 0 22 l7z_RJiX1TjmggZFQ6iZ63
+l47
+L15
+VIicT^jPW4ZDIRXS]jZo2`0
+R7
+32
+R34
+R35
+R36
+R11
+R12
+!s100 g3=>QNYBh6X`9NT=l=3kf3
+!i10b 1

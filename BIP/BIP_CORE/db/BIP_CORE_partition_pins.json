@@ -1,0 +1,417 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "o_address_rom[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[7]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[8]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[9]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[10]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_rom[11]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[7]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[8]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[9]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[10]",
+					"strict" : false
+				},
+				{
+					"name" : "o_address_ram[11]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[7]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[8]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[9]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[10]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[11]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[12]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[13]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[14]",
+					"strict" : false
+				},
+				{
+					"name" : "o_din_ram[15]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[7]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[8]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[9]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[10]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[11]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[12]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[13]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[14]",
+					"strict" : false
+				},
+				{
+					"name" : "o_out_acc[15]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[0]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[3]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[4]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[5]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[6]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[7]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[8]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[9]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[10]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[11]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[12]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[13]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[14]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_rom[15]",
+					"strict" : false
+				},
+				{
+					"name" : "i_clk",
+					"strict" : false
+				},
+				{
+					"name" : "i_rst",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[0]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[0]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[3]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[3]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[4]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[4]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[5]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[5]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[6]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[6]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[7]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[7]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[8]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[8]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[9]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[9]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[10]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[10]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[11]",
+					"strict" : false
+				},
+				{
+					"name" : "i_switches[11]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[12]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[13]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[14]",
+					"strict" : false
+				},
+				{
+					"name" : "i_dout_ram[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

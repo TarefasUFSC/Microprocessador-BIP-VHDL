@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\Caminho_Controle\Address_Counter
+Eaddress_counter
+Z0 w1658800418
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\BIP_CORE\Caminho_Controle
+Z6 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/ADDRESS_COUNTER.vhd
+Z7 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/ADDRESS_COUNTER.vhd
+l0
+L6
+V]nfkdP22gL2D0QZRi>ae]0
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1658800549.425000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/ADDRESS_COUNTER.vhd|
+Z11 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Address_Counter/ADDRESS_COUNTER.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 0c<]mMNWS^<=57Q[YhCcl0
+!i10b 1
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 15 address_counter 0 22 ]nfkdP22gL2D0QZRi>ae]0
+l21
+L19
+V7fddzURTLXQAl^JLcELO;1
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 MhHEkGBI4On<Q4TV>I@SC2
+!i10b 1
+Ecaminho_controle
+Z14 w1658770303
+R1
+R2
+R3
+R4
+R5
+Z15 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/CAMINHO_CONTROLE.vhd
+Z16 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/CAMINHO_CONTROLE.vhd
+l0
+L6
+VXd;hDR^kB4GnH:j;I_g@62
+!s100 _B5=Q8bn>`15@Edmg[4Qb1
+R8
+32
+!i10b 1
+Z17 !s108 1658800549.807000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/CAMINHO_CONTROLE.vhd|
+Z19 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/CAMINHO_CONTROLE.vhd|
+R12
+R13
+Abehavior
+R1
+R2
+R3
+R4
+Z20 DEx4 work 16 caminho_controle 0 22 Xd;hDR^kB4GnH:j;I_g@62
+l49
+L25
+Z21 VT[MlU:ziMilcA^@9XX<jS1
+Z22 !s100 Bhc>3e8_6OEz8Jz2WUIZ42
+R8
+32
+!i10b 1
+R17
+R18
+R19
+R12
+R13
+Elogica_controle
+Z23 w1658493922
+R1
+R2
+R3
+R4
+R5
+Z24 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/LOGICA_CONTROLE.vhd
+Z25 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/LOGICA_CONTROLE.vhd
+l0
+L6
+VMR^?h9[<4CnHJ]m^0HgXO2
+R8
+32
+Z26 !s108 1658800549.608000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/LOGICA_CONTROLE.vhd|
+Z28 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/Logica_Controle/LOGICA_CONTROLE.vhd|
+R12
+R13
+!s100 WZEJGR8M1S^XCgo7VbcF>2
+!i10b 1
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 15 logica_controle 0 22 MR^?h9[<4CnHJ]m^0HgXO2
+l27
+L19
+Vkc]6eFDKIEFYW7H__WVbn3
+!s100 N_Q201=;Xo^3Og3]M_mm52
+R8
+32
+R26
+R27
+R28
+R12
+R13
+!i10b 1
+Etb_caminho_controle
+Z29 w1658770340
+R1
+R2
+R3
+R4
+R5
+Z30 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/TB_CAMINHO_CONTROLE.vhd
+Z31 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/TB_CAMINHO_CONTROLE.vhd
+l0
+L6
+VQ]oSUFh^HiRWjI>i491Yz2
+R8
+32
+Z32 !s108 1658800549.244000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/TB_CAMINHO_CONTROLE.vhd|
+Z34 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/BIP_CORE/Caminho_Controle/TB_CAMINHO_CONTROLE.vhd|
+R12
+R13
+!s100 nPTFn90hUYcz:IJ4X3=mZ3
+!i10b 1
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 19 tb_caminho_controle 0 22 Q]oSUFh^HiRWjI>i491Yz2
+l46
+L13
+VLz<N8N[@S>IglVcH>DKjW0
+R8
+32
+R32
+R33
+R34
+R12
+R13
+!s100 ATGb7XR;AUBOQA;CNg9W62
+!i10b 1

@@ -1,0 +1,55 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity TB_XXX is
+
+end TB_XXX;
+
+architecture behavioral of TB_XXX is
+
+	component XXX is
+		port(
+			-- mesmos ports do coponente (só copiar do entity)
+		);
+	end component;
+	
+	-- cria um signal w_x pra cada port
+	
+begin
+
+	UUT: XXX
+	port map(
+		-- Só lembra que aqui a seta é: pino_do_componente => w_x equivalente
+	);
+	
+
+-- Sinais
+	-- clock
+	process
+	begin
+		w_clk <= '0';
+		wait for 10 NS;
+		w_clk <= '1';
+		wait for 10 NS;
+	end process;
+
+	-- reset
+	process
+	begin
+		w_rst <= '1';
+		wait for 10 NS;
+		w_rst <= '0';
+		wait;
+	end process;
+	
+
+-- teste XX
+	process
+	begin
+		-- colocar os sinais aqui
+		wait;
+		
+	end process;
+end behavioral;

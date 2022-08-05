@@ -1,0 +1,120 @@
+m255
+K3
+13
+cModel Technology
+dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\ROM\simulation
+Erom
+Z0 w1658941766
+Z1 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dE:\Projetos\UFSC\Aulas\Linguagem_E_Descricao_De_Hardware\BIP\ROM
+Z6 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/ROM.vhd
+Z7 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/ROM.vhd
+l0
+L6
+V9>OJL14VWdLaaWfN5zHO12
+!s100 7W>clMz?m4oRz@hfUfeIG1
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1658968630.403000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/ROM.vhd|
+Z11 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/ROM.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 3 rom 0 22 9>OJL14VWdLaaWfN5zHO12
+l58
+L26
+Z14 VYT=63dJz8LA3Ti5<0lWhQ3
+Z15 !s100 lR4faPPiK@a^Km]8BPl^e3
+R8
+32
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Erom_intel_sreg
+Z16 w1658966308
+Z17 DPx9 altera_mf 20 altera_mf_components 0 22 zh;bE09gCIPDVLK?MN49L3
+R3
+R4
+R5
+Z18 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/ROM_INTEL_SREG.vhd
+Z19 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/ROM_INTEL_SREG.vhd
+l0
+L43
+V_OnMhinR[CL^bHabf8KGG3
+R8
+32
+Z20 !s108 1658968630.247000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/ROM_INTEL_SREG.vhd|
+Z22 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/ROM_INTEL_SREG.vhd|
+R12
+R13
+!s100 9[n=GW^zgL2<Oc<N]OzoV3
+!i10b 1
+Asyn
+R17
+R3
+R4
+DEx4 work 14 rom_intel_sreg 0 22 _OnMhinR[CL^bHabf8KGG3
+l58
+L54
+Vlol`O`4`jK_N97NQbj5Qo3
+!s100 0E7LjgVA:i^ie;UCT1N8H1
+R8
+32
+R20
+R21
+R22
+R12
+R13
+!i10b 1
+Etb_rom
+Z23 w1658863035
+Z24 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+R5
+Z25 8E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/TB_ROM.vhd
+Z26 FE:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/TB_ROM.vhd
+l0
+L6
+VORZl`^NEhBkS5a6UUO;3]2
+R8
+32
+Z27 !s108 1658968630.096000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/TB_ROM.vhd|
+Z29 !s107 E:/Projetos/UFSC/Aulas/Linguagem_E_Descricao_De_Hardware/BIP/ROM/TB_ROM.vhd|
+R12
+R13
+!s100 JROYzP7[fmB;Q^Y9VzcXH3
+!i10b 1
+Abehavioral
+R24
+R2
+R3
+R4
+DEx4 work 6 tb_rom 0 22 ORZl`^NEhBkS5a6UUO;3]2
+l39
+L14
+VNMz9Wi?@>Y1j;7B2G;aY=0
+R8
+32
+R27
+R28
+R29
+R12
+R13
+!s100 Se@J5HLQOzTcPng1T8Rd61
+!i10b 1

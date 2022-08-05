@@ -1,0 +1,32 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity PLL is
+	port(
+		i_clk		: in std_logic;
+		i_rst		: in std_logic;
+		o_clk		: out std_logic;
+		o_locked	: out std_logic
+	);
+end PLL;
+ARCHITECTURE behavior of PLL IS
+	component PLL_INTEL
+	PORT
+	(
+		areset		: IN STD_LOGIC  := '0';
+		inclk0		: IN STD_LOGIC  := '0';
+		c0			: OUT STD_LOGIC ;
+		locked		: OUT STD_LOGIC 
+	);
+	end component;
+
+BEGIN
+	U_PLL : PLL_INTEL PORT MAP (
+		areset	 => i_rst,
+		inclk0	 => i_clk,
+		c0	 => o_clk,
+		locked	 => o_locked
+	);
+END behavior;

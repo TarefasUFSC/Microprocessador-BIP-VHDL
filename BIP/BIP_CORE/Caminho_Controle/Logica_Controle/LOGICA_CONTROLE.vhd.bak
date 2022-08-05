@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity LOGICA_CONTROLE is
+	port(
+		i_OPCODE: 	in std_logic_vector(3 downto 0);
+		o_WR_RAM: 	out std_logic;
+		o_EN_RAM: 	out std_logic;
+		o_EN_PC: 	out std_logic;
+		o_EN_ROM: 	out std_logic;
+		o_WR_ACC: 	out std_logic;
+		o_SEL_OP1: 	out std_logic_vector(1 downto 0);
+		o_BIT0: 	out std_logic;
+		o_BIT1:		out std_logic;
+		o_SEL_OP2: 	out std_logic;
+		o_SEL_ULA: 	out std_logic;
+		o_EN_IN: 	out std_logic
+	);
+end LOGICA_CONTROLE;
+ARCHITECTURE behavior of LOGICA_CONTROLE IS
+BEGIN
+	
+END behavior;

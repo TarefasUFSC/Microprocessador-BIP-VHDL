@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity BIP_CORE is
+	generic(
+		p_address_width : integer := 12;
+		p_data_width : integer := 16
+	);
+	port(
+		i_data_rom : in std_logic_vector(p_data_width-1 downto 0);
+		i_data_ram : in std_logic_vector(p_data_width-1 downto 0);
+		i_clk : in std_logic;
+		i_rst : in std_logic;
+		i_switches : in std_logic_vector(p_address_width-1 downto 0);
+		o_address_rom : out std_logic_vector(p_address_width-1 downto 0);
+		o_address_ram : out std_logic_vector(p_address_width-1 downto 0);
+		
+	);
+end BIP_CORE;
+ARCHITECTURE behavior of BIP_CORE IS
+BEGIN
+	
+END behavior;

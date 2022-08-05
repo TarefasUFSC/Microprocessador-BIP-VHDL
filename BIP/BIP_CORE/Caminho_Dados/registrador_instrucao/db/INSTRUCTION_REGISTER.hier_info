@@ -1,0 +1,35 @@
+|INSTRUCTION_REGISTER
+i_rom[0] => o_address_ram[0].DATAIN
+i_rom[1] => o_address_ram[1].DATAIN
+i_rom[2] => o_address_ram[2].DATAIN
+i_rom[3] => o_address_ram[3].DATAIN
+i_rom[4] => o_address_ram[4].DATAIN
+i_rom[5] => o_address_ram[5].DATAIN
+i_rom[6] => o_address_ram[6].DATAIN
+i_rom[7] => o_address_ram[7].DATAIN
+i_rom[8] => o_address_ram[8].DATAIN
+i_rom[9] => o_address_ram[9].DATAIN
+i_rom[10] => o_address_ram[10].DATAIN
+i_rom[11] => o_address_ram[11].DATAIN
+i_rom[12] => o_opcode[0].DATAIN
+i_rom[13] => o_opcode[1].DATAIN
+i_rom[14] => o_opcode[2].DATAIN
+i_rom[15] => o_opcode[3].DATAIN
+o_opcode[0] <= i_rom[12].DB_MAX_OUTPUT_PORT_TYPE
+o_opcode[1] <= i_rom[13].DB_MAX_OUTPUT_PORT_TYPE
+o_opcode[2] <= i_rom[14].DB_MAX_OUTPUT_PORT_TYPE
+o_opcode[3] <= i_rom[15].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[0] <= i_rom[0].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[1] <= i_rom[1].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[2] <= i_rom[2].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[3] <= i_rom[3].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[4] <= i_rom[4].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[5] <= i_rom[5].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[6] <= i_rom[6].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[7] <= i_rom[7].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[8] <= i_rom[8].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[9] <= i_rom[9].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[10] <= i_rom[10].DB_MAX_OUTPUT_PORT_TYPE
+o_address_ram[11] <= i_rom[11].DB_MAX_OUTPUT_PORT_TYPE
+
+
